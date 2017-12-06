@@ -1,0 +1,23 @@
+{
+  "name": "s2s-hook-tslint",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "repository": "https://github.com/kamijin-fanta/s2s-hook-tslint",
+  "author": "kamijin_fanta <kamijin@live.jp>",
+  "scripts": {
+    "lint": "eslint **/*.js",
+    "lint-fix": "eslint --fix **/*.js"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.0.3",
+    "eslint": "^4.12.1",
+    "eslint-config-google": "^0.9.1",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-prettier": "^2.3.1",
+    "prettier": "^1.9.1"
+  },
+  "peerDependencies": {
+    "tslint": ">= 5"
+  }
+}
